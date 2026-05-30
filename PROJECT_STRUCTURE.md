@@ -1,8 +1,8 @@
-# ViMax WebUI - 项目结构与代码分析
+# GiveMeMoney - 项目结构与代码分析
 
 ## 一、项目概述
 
-**ViMax WebUI** 是一个基于 AI 的自动化长视频生成平台，核心功能是将文字创意/剧本转换为完整的视频。项目使用 Python 异步编程 + LangChain 框架 + Flask Web 服务，通过调用多种 LLM 模型（DeepSeek、Gemini、Qwen-VL 等）和图像/视频生成 API 来实现从创意到视频的全流程自动化。
+**GiveMeMoney** 是一个基于 AI 的自动化长视频生成平台，核心功能是将文字创意/剧本转换为完整的视频。项目使用 Python 异步编程 + LangChain 框架 + Flask Web 服务，通过调用多种 LLM 模型（DeepSeek、Gemini、Qwen-VL 等）和图像/视频生成 API 来实现从创意到视频的全流程自动化。
 
 - **项目名称**: autolongvideogeneration
 - **Python 版本**: >=3.12
@@ -15,7 +15,7 @@
 ## 二、目录结构总览
 
 ```
-ViMax_Webui/
+GiveMeMoney/
 ├── app.py                          # Flask Web 应用入口
 ├── main_idea2video.py               # Idea→视频 命令行入口
 ├── main_script2video.py             # 剧本→视频 命令行入口
@@ -107,7 +107,7 @@ ViMax_Webui/
 │   └── idea2video/                  # 固定名称的项目目录
 │
 ├── assets/                          # 资源文件
-│   └── ViMax_technical_report.pdf
+│   └── GiveMeMoney_technical_report.pdf
 └── generated_images/                # 示例生成图片存放目录
 ```
 
